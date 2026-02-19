@@ -2,7 +2,7 @@
 
 This repository contains an implementation of a **Deep Convolutional Generative Adversarial Network (DC-GAN)** built using **PyTorch**. The model is designed to generate realistic images by training a Generator and a Discriminator in a competitive setting.
 
-## 🚀 Overview
+## Overview
 
 DC-GAN is a class of CNNs that has certain architectural constraints, and is a strong candidate for unsupervised learning. In this project, the network is trained to synthesize images from random noise.
 
@@ -12,7 +12,7 @@ DC-GAN is a class of CNNs that has certain architectural constraints, and is a s
 - **Visualization**: Real-time progress tracking of loss functions and generated image samples.
 - **Model Checkpoints**: Saves the latest generator state for inference.
 
-## 📁 Project Structure
+## Project Structure
 
 - `dc-gan.ipynb`: The main Jupyter notebook containing the model definition, training loop, and visualization.
 - `Results DC GAN/`:
@@ -20,7 +20,7 @@ DC-GAN is a class of CNNs that has certain architectural constraints, and is a s
     - `Loss Outputs/`: contains plots or logs of the Generator and Discriminator loss.
     - `generator_latest.pth`: The trained weights for the Generator network.
 
-## 🛠️ Requirements
+## Requirements
 
 To run this project, you need the following Python libraries:
 - Python 3.x
@@ -34,7 +34,7 @@ You can install the dependencies via pip:
 pip install torch torchvision numpy matplotlib
 ```
 
-## 📖 Usage
+## Usage
 
 1. Clone the repository:
    ```bash
